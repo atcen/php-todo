@@ -1,4 +1,4 @@
-FROM php:7.4-apache
+FROM php:8.1.0-apache
 
 # Aktualisieren Sie den Paketmanager und installieren Sie zusätzliche Pakete, die Sie benötigen
 RUN apt-get update && apt-get install -y \
